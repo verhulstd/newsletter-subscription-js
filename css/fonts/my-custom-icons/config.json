@@ -1,0 +1,16 @@
+{
+  "name": "my-custom-icons",
+  "css_prefix_text": "icon-",
+  "css_use_suffix": false,
+  "hinting": true,
+  "units_per_em": 1000,
+  "ascent": 850,
+  "glyphs": [
+    {
+      "uid": "cf772d9d1eca484c9772a98045dd39d6",
+      "css": "target",
+      "code": 57345,
+      "src": "elusive"
+    }
+  ]
+}
