@@ -24,6 +24,7 @@
     left:0;
     top: 0;
     font-size: 16px;
+    font-family: $icons;
 }
 
 @mixin css-triangle($color, $direction, $size: 6px, $position: absolute, $round: false){

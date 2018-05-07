@@ -1,8 +1,13 @@
 @import 'base/reset';
-// @import 'base/fonts';
-@import 'base/mixins';
+@import 'base/fonts';
 @import 'base/variables';
+@import 'base/mixins';
 
 body{
     background-color: $bodybg;
+    font-family: Lato;
+    font-size: 40px;
+}
+h1:after{
+    @include pseudo($content: '\e001');
 }
