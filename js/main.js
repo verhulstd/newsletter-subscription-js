@@ -1,6 +1,7 @@
 /* IMPORTS */
 import tippy from "tippy.js";
-import firebase from "firebase";
+import firebase from "firebase/app";
+import "firebase/database";
 
 /* SETTINGS */
 let existingSubscribers = [];
@@ -37,15 +38,6 @@ function syncArray(snapshot) {
   }
 }
 
-/* ON KEYPRESS¨*/
-input.addEventListener("keyup", e => {
-  if (typeCheck) {
-    if (validate()) {
-      clearError();
-    }
-  }
-});
-
 /* ON SUBMIT */
 form.addEventListener("submit", e => {
   e.preventDefault();
@@ -56,10 +48,18 @@ form.addEventListener("submit", e => {
       .database()
       .ref("/subscriptions")
       .push(input.value);
-    form.classList.remove("fadeInDown");
     const classList = ["animated", "fadeOut"];
-    form.querySelector("div").classList.add(...classList);
+    form.querySelector("div").classList.add(...classList); //spread operator es6
     form.querySelector("button").classList.add(...classList);
+  }
+});
+
+/* ON KEYPRESS¨*/
+input.addEventListener("keyup", e => {
+  if (typeCheck) {
+    if (validate()) {
+      clearError();
+    }
   }
 });
 
@@ -103,16 +103,15 @@ function startCounter() {
 
 function resetSubscription() {
   subscribed = false;
+  form.querySelector("section").style.display = "none";
   form.querySelector("button").style.display = "block";
   form.querySelector("div").style.display = "block";
   form.querySelector("section").classList.remove(...["animated", "fadeIn"]);
   form.querySelector("button").classList.remove(...["animated", "fadeOut"]);
   form.querySelector("div").classList.remove(...["animated", "fadeOut"]);
-  form.querySelector("section").style.display = "none";
   input.value = "";
   input.focus();
   form.querySelector("span").innerHTML = 5;
-  clearError();
 }
 
 /* VALIDATION FUNCTIONS */
