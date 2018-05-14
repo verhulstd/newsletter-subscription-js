@@ -1,12 +1,14 @@
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg xmlns="http://www.w3.org/2000/svg">
-<metadata>Copyright (C) 2017 by original authors @ fontello.com</metadata>
+<metadata>Copyright (C) 2018 by original authors @ fontello.com</metadata>
 <defs>
 <font id="my-custom-icons" horiz-adv-x="1000" >
 <font-face font-family="my-custom-icons" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
 <missing-glyph horiz-adv-x="1000" />
-<glyph glyph-name="target" unicode="&#xe001;" d="M0 274l0 152 131 0q21 110 102 191t191 102l0 131 152 0 0-131q110-21 191-102t102-191l131 0 0-152-131 0q-21-109-102-191t-191-102l0-131-152 0 0 131q-110 21-191 102t-102 191l-131 0z m231 0q19-70 71-122t122-71l0 146 152 0 0-146q70 19 122 71t72 122l-147 0 0 152 147 0q-20 71-72 122t-122 72l0-147-152 0 0 147q-70-20-122-72t-71-122l146 0 0-152-146 0z" horiz-adv-x="1000" />
+<glyph glyph-name="mail" unicode="&#xe800;" d="M834 688q44 0 74-30t30-74l0-468q0-43-30-74t-74-30l-730 0q-44 0-74 30t-30 74l0 468q0 44 30 74t74 30l730 0z m-421-454l-82 72-190-190 655 0-190 190-81-72q-24-20-56-20t-56 20z m-309-82l187 189-187 163 0-352z m542 189l188-188 0 351z m188 243l-730 0 0-11 342-300q9-7 23-7t22 7l343 300 0 11z" horiz-adv-x="938" />
+
+<glyph glyph-name="error" unicode="&#xe801;" d="M0 350q0 207 147 354t353 146 354-146 146-354-146-354-354-146-353 146-147 354z m137 0q0-150 106-257t257-106 257 106 106 257-106 257-257 106-257-106-106-257z m97-98l0 196 532 0 0-196-532 0z" horiz-adv-x="1000" />
 </font>
 </defs>
 </svg>

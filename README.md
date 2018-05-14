@@ -1,2 +1,3 @@
-# meraki-starter
-Starter package to start new webproject
+# newsletter-subscription-js
+
+Newsletter subscription in Vanilla JS

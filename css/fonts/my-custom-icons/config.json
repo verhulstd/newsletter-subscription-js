@@ -7,9 +7,15 @@
   "ascent": 850,
   "glyphs": [
     {
-      "uid": "cf772d9d1eca484c9772a98045dd39d6",
-      "css": "target",
-      "code": 57345,
+      "uid": "wg849ixsobykxshs6efpc6fk4m0fq8bh",
+      "css": "mail",
+      "code": 59392,
+      "src": "typicons"
+    },
+    {
+      "uid": "3ab229dd9bccaaaf6c71096da4b72c04",
+      "css": "error",
+      "code": 59393,
       "src": "elusive"
     }
   ]
